@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+//step 1 :input three temperature readings
+cout << "enter the first temperature reading (in C): ";
+cin >> temp1;
+
+cout << "enter the second temperature reading(in C): ";
+cin >> temp2;
+
+//step 2; check the between first and second readings
+int diff = temp2 - temp1;
+if (diff > 50) {
+cout << "reduce fryer heat before taking the third reading." << end1
+}
+//step3:input third temperature reading
+cout << "enter third temperature reading9in C); ";
+cin >>temp3;
+
+//step4;check if third reading is in optimal frying range
+if (temp3 >= 150 && temp3 <= 190){
+cout << "you may start frying the magwinyas. " <<end1;
+} erlse{
+
+cout << "oil is not ready for frying" << 1,
+}
+return 0;
+{
